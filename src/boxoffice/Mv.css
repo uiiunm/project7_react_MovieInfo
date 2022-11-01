@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mvList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.mvList2,
+.mvList3 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin: 15px;
+  padding: 15px;
+  font-size: larger;
+}
+
+.mvList3 {
+  background-color: #cde5ff;
+}
+
+
+
+.infoH1 {
+  height: 10vh;
+  width: 100%;
+  background-color: #454ada;
+  color: #cde5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  font-size: 60px;
+  font-family: 'MonoplexKR-Regular';
+}
+
+@font-face {
+  font-family: 'MonoplexKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mvForm,
+.mvFormList {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: aliceblue;
+}
+
+.mvFormList {
+  height: auto;
+}
+
+.refLi {
+  list-style: none;
+  display: flex;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  border: #001d32 1px solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover,
+button:active {
+  background-color: #cde5ff;
+}
+
+.infoUl {
+  list-style: none;
+  /* border-bottom: 2px dotted #f0f0f0;*/
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+}
+
+
+.infoSpan1,
+.infoSpan2 {
+  display: inline-flex;
+  padding: 5px;
+  font-size: 1.2rem;
+
+}
+
+.infoSpan1 {
+  width: 120px;
+  justify-content: right;
+  font-weight: bold;
+}
+
+.infoSpan2 {
+  width: 300px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ddacf;
+}
+
+input {
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgb(230, 193, 159);
+  font-family: 'GothicA1-Light';
+  margin: 15px;
+  padding: 8px;
+  border-radius: 15px;
+  border : solid 2px black;
+}
+
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ListS {
+  font-size: 26px;
+  padding: 13px;
+  background-color: #F8FFDB;
+  font-family: 'YUniverse-B';
+}
+
+@font-face {
+  font-family: 'YUniverse-B';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ListS1 {
+  font-size: 30px;
+  padding: 13px;
+  color: #284783;
+  background-color: rgb(171, 235, 171);
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.ListL:link {
+  color: #B1AFFF;
+  font-weight: bold;
+}
+
+.ListL:visited {
+  color: #79e090;
+  font-weight: bold;
+}
+
+.home{
+  border : solid 1px white;
+  border-radius: 15px;
+  background-color: rgb(224, 194, 154);
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px;
+}
